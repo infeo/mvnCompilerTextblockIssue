@@ -1,4 +1,4 @@
-package org.cryptomator;
+package org.example;
 
 public interface Service {
 }

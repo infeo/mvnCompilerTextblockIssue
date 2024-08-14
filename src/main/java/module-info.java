@@ -1,8 +1,8 @@
-import org.cryptomator.Service;
-import org.cryptomator.ServiceImpl;
+import org.example.Service;
+import org.example.ServiceImpl;
 
-module org.cryptomator.bob {
-    exports org.cryptomator;
+module org.example.bob {
+    exports org.example;
 
     provides Service with ServiceImpl;
 
